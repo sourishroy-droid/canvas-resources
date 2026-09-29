@@ -1,0 +1,137 @@
+<div id="needs-lens" style="max-width:784px;margin:0 auto;font-family:Arial,Helvetica,sans-serif;color:#231f20;line-height:1.45;box-sizing:border-box;">
+  <div style="border:1px solid #ececec;border-radius:18px;overflow:hidden;background:#ffffff;">
+    <div style="padding:26px 28px 22px;background:#ff5900;color:#ffffff;">
+      <div style="font-size:12px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;opacity:.9;">Maslow's Hierarchy Applied to the NCLEX-RN</div>
+      <div style="font-size:32px;font-weight:900;line-height:1.05;margin-top:7px;">The Needs Lens</div>
+      <div style="font-size:15px;margin-top:12px;max-width:680px;">Use Maslow as a prioritization lens: identify which need is unmet now, then decide whether Maslow—or a more urgent framework such as ABCs or Safety First—should guide the answer.</div>
+    </div>
+
+    <div style="padding:22px 24px 10px;">
+      <div style="font-size:14px;color:#5b5b5b;margin-bottom:16px;">Select each tier to explore its clinical implications, NCLEX application rule, annotated example, and recognition cues.</div>
+
+      <div style="display:grid;grid-template-columns:minmax(230px,0.9fr) minmax(0,1.5fr);gap:22px;align-items:start;" class="nl-grid">
+        <div>
+          <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:#ff5900;margin:0 0 10px;">Explore by tier</div>
+          <div id="tierButtons" style="display:grid;gap:8px;">
+            <button type="button" data-tier="1" style="width:100%;border:2px solid #ff5900;background:#ff5900;color:#fff;padding:12px 14px;border-radius:12px;text-align:left;font-weight:800;cursor:pointer;font-size:14px;">1 · Physiological Needs</button>
+            <button type="button" data-tier="2" style="width:100%;border:2px solid #ff5900;background:#fff;color:#231f20;padding:12px 14px;border-radius:12px;text-align:left;font-weight:800;cursor:pointer;font-size:14px;">2 · Safety Needs</button>
+            <button type="button" data-tier="3" style="width:100%;border:2px solid #ff5900;background:#fff;color:#231f20;padding:12px 14px;border-radius:12px;text-align:left;font-weight:800;cursor:pointer;font-size:14px;">3 · Belonging & Love</button>
+            <button type="button" data-tier="4" style="width:100%;border:2px solid #ff5900;background:#fff;color:#231f20;padding:12px 14px;border-radius:12px;text-align:left;font-weight:800;cursor:pointer;font-size:14px;">4 · Esteem Needs</button>
+            <button type="button" data-tier="5" style="width:100%;border:2px solid #ff5900;background:#fff;color:#231f20;padding:12px 14px;border-radius:12px;text-align:left;font-weight:800;cursor:pointer;font-size:14px;">5 · Self-Actualization</button>
+          </div>
+
+          <div style="margin-top:18px;border-top:1px solid #e9e9e9;padding-top:16px;">
+            <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:#ff5900;margin-bottom:10px;">Maslow's hierarchy</div>
+            <div aria-label="Five-tier Maslow pyramid" style="display:flex;flex-direction:column;align-items:center;gap:5px;">
+              <button type="button" data-tier="5" style="width:44%;border:0;background:#fff3ed;color:#231f20;border-radius:9px;padding:8px 6px;font-size:11px;font-weight:800;cursor:pointer;">5 · Self-Actualization</button>
+              <button type="button" data-tier="4" style="width:58%;border:0;background:#ffe2d4;color:#231f20;border-radius:9px;padding:8px 6px;font-size:11px;font-weight:800;cursor:pointer;">4 · Esteem</button>
+              <button type="button" data-tier="3" style="width:72%;border:0;background:#ffd0b9;color:#231f20;border-radius:9px;padding:8px 6px;font-size:11px;font-weight:800;cursor:pointer;">3 · Belonging & Love</button>
+              <button type="button" data-tier="2" style="width:86%;border:0;background:#ffb792;color:#231f20;border-radius:9px;padding:8px 6px;font-size:11px;font-weight:800;cursor:pointer;">2 · Safety</button>
+              <button type="button" data-tier="1" style="width:100%;border:0;background:#ff5900;color:#fff;border-radius:9px;padding:9px 6px;font-size:11px;font-weight:800;cursor:pointer;">1 · Physiological</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="tierPanel" style="border-left:4px solid #ff5900;background:#fff8f4;border-radius:14px;padding:20px;min-height:420px;">
+          <div id="tierKicker" style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.3px;color:#ff5900;">Tier 1 of 5</div>
+          <div id="tierTitle" style="font-size:24px;font-weight:900;margin-top:4px;">Physiological Needs</div>
+          <div style="margin-top:15px;">
+            <div style="font-size:12px;font-weight:900;text-transform:uppercase;color:#ff5900;margin-bottom:4px;">What this tier includes</div>
+            <div id="tierIncludes" style="font-size:14px;">Oxygen, nutrition, fluid balance, elimination, thermoregulation, rest, and physical comfort. These are the body's most immediate survival requirements.</div>
+          </div>
+          <div style="margin-top:16px;">
+            <div style="font-size:12px;font-weight:900;text-transform:uppercase;color:#ff5900;margin-bottom:4px;">NCLEX application rule</div>
+            <div id="tierRule" style="font-size:14px;">When a physiological need is unmet or threatened, it takes priority over all other needs. An unmet physiological need that represents an immediate threat to life is governed by ABCs. An unmet physiological need that does not represent an active life threat is still addressed before safety or psychosocial needs.</div>
+          </div>
+          <div style="margin-top:16px;background:#fff;border:1px solid #ffd9c6;border-radius:12px;padding:14px;">
+            <div style="font-size:12px;font-weight:900;text-transform:uppercase;color:#ff5900;margin-bottom:5px;">Annotated example</div>
+            <div id="tierExample" style="font-size:14px;">A nurse is caring for two clients. The first has post-operative pain rated seven out of ten and is requesting medication. The second has not voided in ten hours and reports lower abdominal discomfort.<br><br><strong>Which client takes priority?</strong><br>The second client. Urinary retention after ten hours represents an unmet physiological need with a defined clinical threshold. Post-operative pain is also physiological, but urinary retention carries greater immediate physiological risk.</div>
+          </div>
+          <div style="margin-top:14px;display:flex;gap:8px;align-items:flex-start;">
+            <div style="flex:0 0 26px;height:26px;border-radius:50%;background:#ff5900;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:13px;">?</div>
+            <div><div style="font-size:12px;font-weight:900;text-transform:uppercase;color:#ff5900;">Key phrases to recognize</div><div id="tierCue" style="font-size:13px;margin-top:2px;">“Which client should the nurse assess first?” · “Which finding requires immediate attention?” · “Which action is the priority?”</div></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;gap:10px;margin-top:20px;">
+            <button id="prevTier" type="button" disabled style="border:1px solid #d7d7d7;background:#f5f5f5;color:#999;padding:10px 14px;border-radius:10px;font-weight:800;cursor:not-allowed;">← Previous</button>
+            <button id="nextTier" type="button" style="border:0;background:#ff5900;color:#fff;padding:10px 14px;border-radius:10px;font-weight:800;cursor:pointer;">Next tier →</button>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:28px;border-top:1px solid #eeeeee;padding-top:24px;">
+        <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.2px;color:#ff5900;">Application check</div>
+        <div style="font-size:22px;font-weight:900;margin-top:4px;">Where Maslow Goes Wrong on the NCLEX</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px;" class="nl-errors">
+          <button type="button" class="errorBtn" data-error="1" style="border:1px solid #ffd4bf;background:#fff;text-align:left;border-radius:12px;padding:15px;cursor:pointer;">
+            <div style="font-size:12px;font-weight:900;color:#ff5900;text-transform:uppercase;">Error 1</div>
+            <div style="font-size:15px;font-weight:850;margin-top:3px;">Using Maslow when ABCs or Safety First governs</div>
+          </button>
+          <button type="button" class="errorBtn" data-error="2" style="border:1px solid #ffd4bf;background:#fff;text-align:left;border-radius:12px;padding:15px;cursor:pointer;">
+            <div style="font-size:12px;font-weight:900;color:#ff5900;text-transform:uppercase;">Error 2</div>
+            <div style="font-size:15px;font-weight:850;margin-top:3px;">Choosing physiology after the stem has resolved it</div>
+          </button>
+        </div>
+        <div id="errorPanel" style="display:none;margin-top:12px;background:#fff8f4;border-left:4px solid #ff5900;border-radius:12px;padding:16px;font-size:14px;"></div>
+      </div>
+
+      <div style="margin-top:26px;border-top:1px solid #eeeeee;padding:22px 0 26px;">
+        <div style="display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;" class="nl-note">
+          <div>
+            <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.2px;color:#ff5900;">IEN note</div>
+            <div style="font-size:20px;font-weight:900;margin-top:4px;">A Note on How This Framework Travels</div>
+            <div style="font-size:14px;margin-top:8px;color:#4d4d4d;">Maslow's hierarchy is familiar across Latin American nursing programs. On the NCLEX, the challenge is speed and precision: identify which tier is unmet <strong>right now</strong>, then choose the option that addresses it directly.</div>
+          </div>
+          <div style="min-width:130px;text-align:center;background:#ff5900;color:#fff;border-radius:14px;padding:16px 12px;">
+            <div style="font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px;">Exam mindset</div>
+            <div style="font-size:21px;font-weight:900;line-height:1.1;margin-top:5px;">Need now.<br>Tier now.<br>Action now.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    #needs-lens *, #needs-lens *::before, #needs-lens *::after { box-sizing:border-box; }
+    #needs-lens button:focus-visible { outline:3px solid rgba(255,89,0,.35); outline-offset:2px; }
+    @media (max-width:680px){
+      #needs-lens .nl-grid{grid-template-columns:1fr !important;}
+      #needs-lens .nl-errors{grid-template-columns:1fr !important;}
+      #needs-lens .nl-note{grid-template-columns:1fr !important;}
+    }
+  </style>
+
+  <script>
+  (function(){
+    const root=document.getElementById('needs-lens');
+    if(!root || root.dataset.ready==='1') return;
+    root.dataset.ready='1';
+    const tiers={
+      1:{title:'Physiological Needs',includes:'Oxygen, nutrition, fluid balance, elimination, thermoregulation, rest, and physical comfort. These are the body\'s most immediate survival requirements.',rule:'When a physiological need is unmet or threatened, it takes priority over all other needs. An unmet physiological need that represents an immediate threat to life is governed by ABCs. An unmet physiological need that does not represent an active life threat is still addressed before safety or psychosocial needs.',example:'A nurse is caring for two clients. The first has post-operative pain rated seven out of ten and is requesting medication. The second has not voided in ten hours and reports lower abdominal discomfort.<br><br><strong>Which client takes priority?</strong><br>The second client. Urinary retention after ten hours represents an unmet physiological need with a defined clinical threshold. Post-operative pain is also physiological, but urinary retention carries greater immediate physiological risk.',cue:'“Which client should the nurse assess first?” · “Which finding requires immediate attention?” · “Which action is the priority?”'},
+      2:{title:'Safety Needs',includes:'Physical safety, environmental security, freedom from harm, and protection from danger. In clinical settings, this includes fall risk, restraint use, hazard identification, and situations where the client\'s environment or behavior creates danger.',rule:'Safety needs take priority over belonging, esteem, and self-actualization needs. They do not automatically override physiological needs; an active physiological threat is still governed by tier one. Safety First operates at this tier.',example:'A client with mild dementia is attempting to climb out of bed. The call light is within reach and the bed alarm is not activated. A family member is in the room.<br><br><strong>Priority:</strong> Address the immediate fall-prevention need first. The environmental safety concern comes before conversation or family involvement alone.',cue:'“Which action should the nurse take first?” · “Which finding requires immediate attention?” · “Which client is at greatest risk?”'},
+      3:{title:'Belonging & Love Needs',includes:'Social connection, relationships, support systems, and the client\'s sense of being cared for. In nursing, this tier often appears in scenarios involving isolation, family separation, grief, and chronic illness.',rule:'Belonging needs take priority over esteem and self-actualization, but not over physiological or safety needs. When the scenario establishes that physiological and safety needs are met, belonging becomes the clinical focus.',example:'A client admitted for a chronic condition reports feeling isolated and says that her family rarely visits. Her physical assessment is unremarkable and vital signs are stable.<br><br><strong>Priority:</strong> Physiological and safety needs are already met. Address relational and support needs through therapeutic communication, assessment of support systems, and social-work referral when indicated.',cue:'“The client states…” · “The client reports feeling…” after physical findings are confirmed stable or unremarkable.'},
+      4:{title:'Esteem Needs',includes:'Self-worth, dignity, autonomy, and the client\'s sense of competence and control. This tier appears in body-image concerns, loss of function, chronic illness adjustment, and client teaching.',rule:'Esteem needs are addressed after physiological, safety, and belonging needs. On the NCLEX, they often appear in therapeutic communication, client education timing, and support for client decision-making.',example:'A client who had a mastectomy yesterday refuses to look at the surgical site and says, “I don\'t feel like myself anymore.”<br><br><strong>Priority:</strong> If physical recovery is stable, the identity and self-worth concern becomes the clinical focus. Acknowledge the experience without minimizing or redirecting it.',cue:'“The client expresses concern about…” · “The client refuses…” · “The client states she feels…” paired with stable physical findings.'},
+      5:{title:'Self-Actualization',includes:'Personal growth, meaning, purpose, and the client\'s ability to achieve their fullest potential within the context of health. It is less commonly tested directly, but may appear in end-of-life care, advance directives, and integration of a diagnosis into life goals.',rule:'Self-actualization needs are addressed only when all lower-tier needs are met. On the NCLEX, this tier most often appears in palliative and end-of-life scenarios where the nurse supports personal meaning and the client\'s wishes.',example:'A client with a terminal diagnosis tells the nurse, “I just want to finish writing the book I started. That\'s all I\'m thinking about right now.”<br><br><strong>Priority:</strong> The presenting need is purpose and legacy. Honor that goal rather than redirecting toward clinical concerns the client has not raised.',cue:'Look for goals, meaning, purpose, legacy, or personal wishes after lower-tier needs are clearly established as met.'}
+    };
+    const errors={
+      1:'<strong>Error 1: Applying Maslow when ABCs or Safety First actually govern.</strong><br><br>If a scenario presents an active airway compromise, a fall in progress, or an immediate safety threat, ABCs or Safety First govern the answer—not Maslow. Maslow applies to priority decisions about which need to address, not which emergency to manage.<br><br><strong>Recognition signal:</strong> If the stem suggests immediacy, danger, or deterioration, apply ABCs or Safety First first. If no active emergency remains, then use Maslow.',
+      2:'<strong>Error 2: Answering physiologically when the stem has already resolved the physical concern.</strong><br><br>If the stem says vital signs are stable, the physical assessment is unremarkable, pain is controlled, or the client is medically stable, tier one is being signaled as satisfied. Move up the hierarchy to the remaining unmet need.<br><br><strong>Recognition signal:</strong> “Vital signs are stable,” “physical assessment is unremarkable,” “pain is controlled,” and “medically stable” are deliberate clues that the priority has shifted.'
+    };
+    let current=1;
+    const q=s=>root.querySelector(s), qa=s=>Array.from(root.querySelectorAll(s));
+    function render(n){
+      current=n; const t=tiers[n];
+      q('#tierKicker').textContent='Tier '+n+' of 5'; q('#tierTitle').textContent=t.title;
+      q('#tierIncludes').textContent=t.includes; q('#tierRule').textContent=t.rule; q('#tierExample').innerHTML=t.example; q('#tierCue').textContent=t.cue;
+      qa('[data-tier]').forEach(btn=>{const active=Number(btn.dataset.tier)===n; if(btn.parentElement && btn.parentElement.id==='tierButtons'){btn.style.background=active?'#ff5900':'#fff';btn.style.color=active?'#fff':'#231f20';}});
+      const prev=q('#prevTier'), next=q('#nextTier');
+      prev.disabled=n===1; prev.style.cursor=n===1?'not-allowed':'pointer'; prev.style.background=n===1?'#f5f5f5':'#fff'; prev.style.color=n===1?'#999':'#231f20'; prev.style.borderColor=n===1?'#d7d7d7':'#ff5900';
+      next.disabled=n===5; next.textContent=n===5?'All tiers explored':'Next tier →'; next.style.opacity=n===5?'.55':'1'; next.style.cursor=n===5?'default':'pointer';
+    }
+    qa('[data-tier]').forEach(b=>b.addEventListener('click',()=>render(Number(b.dataset.tier))));
+    q('#prevTier').addEventListener('click',()=>{if(current>1)render(current-1)});
+    q('#nextTier').addEventListener('click',()=>{if(current<5)render(current+1)});
+    qa('.errorBtn').forEach(b=>b.addEventListener('click',()=>{const p=q('#errorPanel');p.innerHTML=errors[b.dataset.error];p.style.display='block';qa('.errorBtn').forEach(x=>{x.style.background=x===b?'#fff3ed':'#fff';x.style.borderColor=x===b?'#ff5900':'#ffd4bf';});}));
+    render(1);
+  })();
+  </script>
+</div>
