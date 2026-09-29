@@ -1,0 +1,125 @@
+<div style="max-width:784px;margin:0 auto;font-family:Arial,Helvetica,sans-serif;color:#231f20;background:#fff;">
+
+  <!-- SCREEN 1 -->
+  <div style="border:1px solid #ececec;border-radius:18px;overflow:hidden;background:#fff;margin-bottom:22px;">
+    <div style="background:#ff5900;color:#fff;padding:24px;">
+      <div style="font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;opacity:.9;">Section 1 · How the exam decides</div>
+      <div style="font-size:30px;line-height:1.08;font-weight:800;margin-top:7px;">Where Does Your Exam Stop?</div>
+      <div style="font-size:14px;line-height:1.5;margin-top:10px;max-width:650px;">The NCLEX-RN keeps asking questions until it has enough statistical evidence to decide whether your ability is above or below the passing standard.</div>
+    </div>
+
+    <div style="padding:24px;">
+      <div style="display:grid;grid-template-columns:1.05fr .95fr;gap:22px;align-items:center;">
+        <div>
+          <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">The core idea</div>
+          <h2 style="font-size:26px;line-height:1.15;margin:8px 0 12px;">The exam is measuring certainty, not percentage correct.</h2>
+          <p style="font-size:16px;line-height:1.62;color:#555;margin:0;">After every question, the algorithm updates its estimate of your nursing ability. At the same time, it calculates a confidence interval around that estimate.</p>
+          <p style="font-size:16px;line-height:1.62;color:#555;margin:12px 0 0;">When that confidence interval no longer overlaps the passing standard, the exam can stop because the system has reached enough certainty.</p>
+        </div>
+
+        <div style="border:1px solid #eee;border-radius:16px;padding:14px;background:#fff;">
+          <svg viewBox="0 0 560 250" style="display:block;width:100%;height:auto;" role="img" aria-label="NCLEX confidence graph">
+            <line x1="65" y1="210" x2="520" y2="210" stroke="#999" stroke-width="2"/>
+            <line x1="65" y1="35" x2="65" y2="210" stroke="#999" stroke-width="2"/>
+            <line x1="65" y1="125" x2="520" y2="125" stroke="#ff5900" stroke-width="2" stroke-dasharray="7 7"/>
+            <rect x="230" y="78" width="120" height="92" rx="10" fill="#ff5900" opacity=".16"/>
+            <circle cx="290" cy="100" r="8" fill="#ff5900"/>
+            <text x="360" y="120" font-size="13" fill="#555">Passing standard</text>
+            <text x="305" y="88" font-size="13" fill="#555">Ability estimate</text>
+            <text x="210" y="68" font-size="13" fill="#555">Confidence interval</text>
+            <text x="255" y="235" font-size="13" fill="#555">Items answered</text>
+          </svg>
+        </div>
+      </div>
+
+      <div style="margin-top:18px;background:#fff7f2;border:1px solid #ffd7c2;border-radius:14px;padding:16px;line-height:1.55;">
+        <strong style="color:#ff5900;">Key rule:</strong> The exam continues while the system still needs more evidence.
+      </div>
+    </div>
+  </div>
+
+  <!-- SCREEN 2 -->
+  <div style="border:1px solid #ececec;border-radius:18px;overflow:hidden;background:#fff;margin-bottom:22px;">
+    <div style="background:#ff5900;color:#fff;padding:22px 24px 18px;">
+      <div style="font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;opacity:.9;">Section 2 · Three performance patterns</div>
+      <div style="font-size:28px;line-height:1.08;font-weight:800;margin-top:6px;">Three ways the exam can unfold</div>
+    </div>
+
+    <div style="padding:24px;">
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;">
+        <div style="border:1px solid #eee;border-radius:16px;padding:17px;">
+          <div style="width:34px;height:34px;border-radius:50%;background:#ff5900;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;">A</div>
+          <h3 style="font-size:18px;margin:12px 0 8px;">Consistently above the line</h3>
+          <p style="margin:0;color:#555;line-height:1.52;font-size:14px;">Your estimated ability stays above the passing standard. As more answers reinforce the pattern, the confidence interval narrows.</p>
+          <div style="margin-top:12px;padding:10px 12px;background:#fff7f2;border-radius:10px;font-size:13px;line-height:1.45;"><strong>Possible outcome:</strong> the exam may stop near the minimum item count once the system reaches 95% certainty.</div>
+        </div>
+
+        <div style="border:1px solid #eee;border-radius:16px;padding:17px;">
+          <div style="width:34px;height:34px;border-radius:50%;background:#ff5900;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;">B</div>
+          <h3 style="font-size:18px;margin:12px 0 8px;">Hovering near the line</h3>
+          <p style="margin:0;color:#555;line-height:1.52;font-size:14px;">Your estimated ability stays close to the passing standard. The confidence interval keeps overlapping the line, so the system needs more data.</p>
+          <div style="margin-top:12px;padding:10px 12px;background:#fff7f2;border-radius:10px;font-size:13px;line-height:1.45;"><strong>Possible outcome:</strong> the exam may continue to the 150-item maximum. The final ability estimate then determines the result.</div>
+        </div>
+
+        <div style="border:1px solid #eee;border-radius:16px;padding:17px;">
+          <div style="width:34px;height:34px;border-radius:50%;background:#ff5900;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;">C</div>
+          <h3 style="font-size:18px;margin:12px 0 8px;">Consistently below the line</h3>
+          <p style="margin:0;color:#555;line-height:1.52;font-size:14px;">Your estimated ability remains below the passing standard. As the confidence interval narrows, it may eventually sit completely below the line.</p>
+          <div style="margin-top:12px;padding:10px 12px;background:#fff7f2;border-radius:10px;font-size:13px;line-height:1.45;"><strong>Possible outcome:</strong> the exam can stop early once the system reaches 95% certainty that ability is below the standard.</div>
+        </div>
+      </div>
+
+      <div style="margin-top:18px;border-top:1px solid #eee;padding-top:16px;text-align:center;">
+        <div style="font-size:18px;font-weight:800;color:#ff5900;">Exam length alone tells you nothing about the result.</div>
+        <div style="font-size:14px;color:#666;margin-top:5px;">A short exam can end in Pass or Fail. A long exam simply means the algorithm needed more evidence.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCREEN 3 -->
+  <div style="border:1px solid #ececec;border-radius:18px;overflow:hidden;background:#fff;">
+    <div style="background:#ff5900;color:#fff;padding:22px 24px 18px;">
+      <div style="font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;opacity:.9;">Section 3 · What to remember</div>
+      <div style="font-size:28px;line-height:1.08;font-weight:800;margin-top:6px;">Focus on the question in front of you</div>
+    </div>
+
+    <div style="padding:24px;">
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;">
+        <div style="border:1px solid #eee;border-radius:15px;padding:16px;">
+          <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.06em;">Insight 1</div>
+          <h3 style="font-size:18px;margin:7px 0 7px;">Harder questions are not a bad sign</h3>
+          <p style="margin:0;color:#555;line-height:1.5;font-size:14px;">The adaptive system selects items based on your current estimated ability. Increased difficulty can simply mean the algorithm is challenging you at a higher level.</p>
+        </div>
+
+        <div style="border:1px solid #eee;border-radius:15px;padding:16px;">
+          <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.06em;">Insight 2</div>
+          <h3 style="font-size:18px;margin:7px 0 7px;">More questions do not mean failure</h3>
+          <p style="margin:0;color:#555;line-height:1.5;font-size:14px;">A longer exam means the system has not yet reached enough certainty. It can happen to candidates whose ability is close to the threshold on either side.</p>
+        </div>
+
+        <div style="border:1px solid #eee;border-radius:15px;padding:16px;">
+          <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.06em;">Insight 3</div>
+          <h3 style="font-size:18px;margin:7px 0 7px;">Your job is to stay steady</h3>
+          <p style="margin:0;color:#555;line-height:1.5;font-size:14px;">Do not try to interpret the number of questions as feedback. Answer each item carefully and let the algorithm make the statistical decision.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:18px;background:#fff7f2;border:1px solid #ffd7c2;border-radius:14px;padding:16px;">
+        <div style="font-size:14px;font-weight:800;color:#ff5900;">RUN-OUT-OF-TIME NOTE</div>
+        <p style="margin:7px 0 0;line-height:1.55;color:#555;">If time expires before 85 items, the result is automatically Fail. If at least 85 items have been completed, the final ability estimate is used. This is why maintaining a steady pace matters.</p>
+      </div>
+
+      <div style="margin-top:18px;background:#ff5900;color:#fff;border-radius:16px;padding:20px;text-align:center;">
+        <div style="font-size:22px;line-height:1.35;font-weight:800;">The algorithm handles the stopping rule. Your job is to answer each question as carefully as possible.</div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    #exam-static-app *{box-sizing:border-box}
+    @media(max-width:680px){
+      div[style*="grid-template-columns:repeat(3"]{grid-template-columns:1fr!important}
+      div[style*="grid-template-columns:1.05fr .95fr"]{grid-template-columns:1fr!important}
+    }
+  </style>
+</div>
