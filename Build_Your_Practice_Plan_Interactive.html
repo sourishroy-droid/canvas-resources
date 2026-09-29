@@ -1,0 +1,226 @@
+<div id="practice-plan-app" style="max-width:784px;margin:0 auto;font-family:Arial,Helvetica,sans-serif;color:#231f20;background:#fff;">
+  <div style="border:1px solid #ececec;border-radius:18px;overflow:hidden;background:#fff;">
+    <div style="background:#ff5900;color:#fff;padding:22px 24px 18px;">
+      <div style="font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;opacity:.9;">Subtopic 7 Resource</div>
+      <div style="font-size:30px;line-height:1.06;font-weight:800;margin-top:6px;">Build Your Practice Plan</div>
+      <div style="font-size:14px;line-height:1.45;margin-top:10px;max-width:670px;">Turn your practice habits into a specific weekly routine you can follow through the module challenge and all the way to NCLEX-RN test day.</div>
+    </div>
+
+    <div style="padding:14px 20px;border-bottom:1px solid #ececec;display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between;">
+      <div id="ppa-progress" style="font-size:12px;font-weight:700;color:#666;">Screen 1 of 5</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        <button type="button" data-screen="0" class="ppa-dot">1</button>
+        <button type="button" data-screen="1" class="ppa-dot">2</button>
+        <button type="button" data-screen="2" class="ppa-dot">3</button>
+        <button type="button" data-screen="3" class="ppa-dot">4</button>
+        <button type="button" data-screen="4" class="ppa-dot">5</button>
+      </div>
+    </div>
+
+    <div style="padding:24px;min-height:560px;">
+      <section class="ppa-screen" data-index="0">
+        <div style="display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:center;">
+          <div>
+            <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Specific enough to follow</div>
+            <h2 style="font-size:30px;line-height:1.08;margin:8px 0 14px;">A good plan removes the daily decision of what to study.</h2>
+            <p style="font-size:17px;line-height:1.6;margin:0;color:#444;">A practice plan works when it is concrete enough that you always know what your next session holds. Instead of “study more,” it names what you will practice, how often, how you will review, and how you will adjust.</p>
+            <p style="font-size:17px;line-height:1.6;margin:14px 0 0;color:#444;">Your nearest milestone is the module challenge, but the real goal is a repeatable routine you can keep using until your own NCLEX-RN test day.</p>
+          </div>
+          <div style="background:#fff7f2;border:1px solid #ffd7c2;border-radius:18px;padding:22px;">
+            <div style="font-size:14px;font-weight:800;color:#ff5900;">A STRONG PLAN TELLS YOU</div>
+            <div style="display:grid;gap:10px;margin-top:12px;">
+              <div style="font-weight:800;">What you will practice</div>
+              <div style="font-weight:800;">When and how often</div>
+              <div style="font-weight:800;">How you will review</div>
+              <div style="font-weight:800;">What you will change next</div>
+              <div style="font-weight:800;">How you will check progress</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ppa-screen" data-index="1" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">How to build the plan</div>
+        <h2 style="font-size:28px;line-height:1.1;margin:8px 0 16px;">Six steps, revealed one at a time</h2>
+        <div id="ppa-steps" style="display:grid;gap:10px;">
+          <div class="ppa-step" data-step="1"><span>1</span><div><strong>Set your target and work backward</strong><p>Your nearest milestone is the module challenge, but your real target is your own NCLEX-RN test day. Build a routine that continues until that exam.</p></div></div>
+          <div class="ppa-step muted" data-step="2"><span>2</span><div><strong>Diagnose your starting point</strong><p>Use your error tracker to identify your weakest category and most frequent error type. Spend the most time there.</p></div></div>
+          <div class="ppa-step muted" data-step="3"><span>3</span><div><strong>Choose your rhythm</strong><p>Decide how many sprints you will complete each week and how long they will be. Several short sprints plus one longer weekly sprint is a useful pattern.</p><p style="font-size:13px;color:#666;margin-top:6px;">If you are testing in a second language, allow extra time for careful reading and use the longer weekly sprint to build stamina.</p></div></div>
+          <div class="ppa-step muted" data-step="4"><span>4</span><div><strong>Build in review</strong><p>Review every miss in your tracker after each sprint, not just the score.</p></div></div>
+          <div class="ppa-step muted" data-step="5"><span>5</span><div><strong>Set an adjustment rule</strong><p>After each review, change one thing for the next sprint and test whether it helped.</p></div></div>
+          <div class="ppa-step muted" data-step="6"><span>6</span><div><strong>Set checkpoints</strong><p>Each week, check whether your scores are trending up and whether your dominant error type is shrinking. If not, adjust the plan rather than abandoning it.</p></div></div>
+        </div>
+        <button id="ppa-reveal" type="button" style="margin-top:16px;background:#ff5900;color:#fff;border:0;border-radius:999px;padding:12px 18px;font-weight:800;cursor:pointer;">Reveal next step</button>
+      </section>
+
+      <section class="ppa-screen" data-index="2" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Worked example</div>
+        <h2 style="font-size:28px;line-height:1.1;margin:8px 0 16px;">A repeatable weekly practice plan</h2>
+        <div style="display:grid;gap:12px;">
+          <div class="ppa-card"><strong>Goal</strong><p>Pass the module challenge this week, then keep building toward your NCLEX-RN test day. Complete at least five practice sets before the challenge.</p></div>
+          <div class="ppa-card"><strong>Starting diagnosis</strong><p>Weakest category: <b>Safety</b>. Most frequent error type: <b>misreading</b>.</p></div>
+          <div class="ppa-card"><strong>Weekly rhythm</strong><p>Three short sprints of 25–35 items on Monday, Wednesday, and Friday, weighted toward Safety; one longer sprint of 50–70 items on Saturday; review and planning on Sunday.</p></div>
+          <div class="ppa-card"><strong>Review routine</strong><p>After each sprint, log every miss in the tracker and identify the dominant error type for that set.</p></div>
+          <div class="ppa-card"><strong>Adjustment rule</strong><p>One change per cycle. This week: read every stem twice before looking at the options to reduce misreadings.</p></div>
+          <div class="ppa-card"><strong>Progress checks</strong><p>Practice scores should trend upward while the misreading count falls. Repeat the rhythm week to week until test day.</p></div>
+        </div>
+      </section>
+
+      <section class="ppa-screen" data-index="3" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Interactive plan builder</div>
+        <h2 style="font-size:28px;line-height:1.1;margin:8px 0 8px;">Build your own practice plan</h2>
+        <p style="margin:0 0 16px;color:#666;line-height:1.5;">Open each element, read the guidance, and add a concrete entry. Your entries stay visible while you move through the builder.</p>
+
+        <div id="ppa-builder" style="display:grid;gap:10px;">
+          <details class="ppa-detail" open>
+            <summary>Target and dates</summary>
+            <div class="ppa-guidance">Include the module challenge this week, your own NCLEX-RN test date, and the weeks available until that exam.</div>
+            <textarea data-field="target" placeholder="Example: Module challenge Friday; NCLEX-RN on ...; X weeks available"></textarea>
+          </details>
+          <details class="ppa-detail">
+            <summary>Starting diagnosis</summary>
+            <div class="ppa-guidance">Name your weakest category and most frequent error type from your tracker.</div>
+            <textarea data-field="diagnosis" placeholder="Example: Weakest category: Safety; dominant error: misreading"></textarea>
+          </details>
+          <details class="ppa-detail">
+            <summary>Weekly rhythm</summary>
+            <div class="ppa-guidance">State the number and length of sprints and the category focus. Build in both repetition and endurance.</div>
+            <textarea data-field="rhythm" placeholder="Example: 3 short sprints + 1 long sprint, weighted toward ..."></textarea>
+          </details>
+          <details class="ppa-detail">
+            <summary>Review routine</summary>
+            <div class="ppa-guidance">Describe exactly how you will review each set, including how you will use your error tracker.</div>
+            <textarea data-field="review" placeholder="Example: After each sprint, log every miss and identify the dominant error type"></textarea>
+          </details>
+          <details class="ppa-detail">
+            <summary>Adjustment rule</summary>
+            <div class="ppa-guidance">Choose one change to test this cycle rather than changing several things at once.</div>
+            <textarea data-field="adjustment" placeholder="Example: Read every stem twice before viewing the options"></textarea>
+          </details>
+          <details class="ppa-detail">
+            <summary>Weekly checkpoint</summary>
+            <div class="ppa-guidance">Track both score trend and the dominant error type. If progress stalls, revise the plan.</div>
+            <textarea data-field="checkpoint" placeholder="Example: Score trend up? Misreading count down?"></textarea>
+          </details>
+          <details class="ppa-detail">
+            <summary>Commitment</summary>
+            <div class="ppa-guidance">Set a concrete near-term target and a sustainable rhythm after the module challenge.</div>
+            <textarea data-field="commitment" placeholder="Example: Complete at least five sets before the challenge and maintain the weekly rhythm afterward"></textarea>
+          </details>
+        </div>
+
+        <div id="ppa-summary" style="margin-top:16px;background:#fff7f2;border:1px solid #ffd1b8;border-radius:16px;padding:18px;">
+          <div style="font-size:14px;font-weight:800;color:#ff5900;">YOUR PLAN PREVIEW</div>
+          <div id="ppa-preview" style="margin-top:10px;color:#555;line-height:1.6;">Start entering your plan above. Your completed entries will appear here.</div>
+        </div>
+      </section>
+
+      <section class="ppa-screen" data-index="4" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Synthesis</div>
+        <h2 style="font-size:30px;line-height:1.08;margin:8px 0 16px;">Your plan is a living document.</h2>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+          <div style="border:1px solid #eee;border-radius:16px;padding:18px;">
+            <div style="font-size:14px;font-weight:800;color:#ff5900;">CONSISTENCY OVER INTENSITY</div>
+            <div style="margin-top:8px;line-height:1.6;color:#444;">The strongest preparation is rarely the most intense. It is the most consistent, guided by a plan specific enough that you always know what your next session holds.</div>
+          </div>
+          <div style="border:1px solid #eee;border-radius:16px;padding:18px;">
+            <div style="font-size:14px;font-weight:800;color:#ff5900;">ADJUST, DON’T ABANDON</div>
+            <div style="margin-top:8px;line-height:1.6;color:#444;">Practice on a set schedule, review every miss, change one thing, and check your progress before planning the week ahead.</div>
+          </div>
+        </div>
+        <div style="margin-top:18px;background:#ff5900;color:#fff;border-radius:18px;padding:22px;text-align:center;">
+          <div style="font-size:14px;font-weight:700;opacity:.9;">YOUR WEEKLY LOOP</div>
+          <div style="font-size:22px;line-height:1.35;font-weight:800;margin-top:6px;">Practice → Review → Adjust one thing → Check progress → Repeat</div>
+        </div>
+      </section>
+    </div>
+
+    <div style="padding:16px 20px;border-top:1px solid #ececec;display:flex;justify-content:space-between;gap:10px;">
+      <button id="ppa-prev" type="button" style="background:#fff;color:#231f20;border:1px solid #d9d9d9;border-radius:999px;padding:11px 18px;font-weight:800;cursor:pointer;">← Previous</button>
+      <button id="ppa-next" type="button" style="background:#ff5900;color:#fff;border:0;border-radius:999px;padding:11px 18px;font-weight:800;cursor:pointer;">Next →</button>
+    </div>
+  </div>
+
+  <style>
+    #practice-plan-app *{box-sizing:border-box}
+    #practice-plan-app button,#practice-plan-app textarea{font:inherit}
+    #practice-plan-app .ppa-dot{width:32px;height:32px;border-radius:50%;border:1px solid #ddd;background:#fff;color:#555;font-weight:800;cursor:pointer}
+    #practice-plan-app .ppa-dot.active{background:#ff5900;color:#fff;border-color:#ff5900}
+    #practice-plan-app .ppa-step{display:flex;gap:13px;align-items:flex-start;border:1px solid #eee;border-radius:15px;padding:15px;background:#fff}
+    #practice-plan-app .ppa-step.muted{opacity:.34;background:#fafafa}
+    #practice-plan-app .ppa-step span{width:34px;height:34px;border-radius:50%;background:#ff5900;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;flex:0 0 auto}
+    #practice-plan-app .ppa-step strong{font-size:17px}
+    #practice-plan-app .ppa-step p{margin:5px 0 0;color:#555;line-height:1.48}
+    #practice-plan-app .ppa-card{border:1px solid #eee;border-radius:15px;padding:16px}
+    #practice-plan-app .ppa-card strong{color:#ff5900;font-size:16px}
+    #practice-plan-app .ppa-card p{margin:6px 0 0;line-height:1.55;color:#444}
+    #practice-plan-app .ppa-detail{border:1px solid #eee;border-radius:14px;background:#fff;overflow:hidden}
+    #practice-plan-app .ppa-detail summary{cursor:pointer;font-weight:800;padding:15px 17px;list-style:none}
+    #practice-plan-app .ppa-detail summary::-webkit-details-marker{display:none}
+    #practice-plan-app .ppa-detail[open] summary{color:#ff5900;border-bottom:1px solid #eee}
+    #practice-plan-app .ppa-guidance{padding:13px 17px 4px;color:#666;font-size:14px;line-height:1.5}
+    #practice-plan-app textarea{display:block;width:calc(100% - 34px);min-height:78px;margin:10px 17px 17px;padding:12px;border:1px solid #ddd;border-radius:10px;resize:vertical;font-size:16px;line-height:1.45}
+    #practice-plan-app textarea:focus{outline:2px solid #ff5900;outline-offset:1px}
+    @media(max-width:640px){
+      #practice-plan-app .ppa-screen>div[style*="grid-template-columns:1.05fr .95fr"]{grid-template-columns:1fr!important}
+      #practice-plan-app .ppa-screen>div[style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr!important}
+    }
+  </style>
+
+  <script>
+    (function(){
+      const root=document.getElementById('practice-plan-app');
+      const screens=[...root.querySelectorAll('.ppa-screen')];
+      const dots=[...root.querySelectorAll('.ppa-dot')];
+      const progress=root.querySelector('#ppa-progress');
+      const prev=root.querySelector('#ppa-prev');
+      const next=root.querySelector('#ppa-next');
+      let current=0;
+      function show(i){
+        current=Math.max(0,Math.min(screens.length-1,i));
+        screens.forEach((s,idx)=>s.hidden=idx!==current);
+        dots.forEach((d,idx)=>d.classList.toggle('active',idx===current));
+        progress.textContent='Screen '+(current+1)+' of '+screens.length;
+        prev.disabled=current===0;
+        prev.style.opacity=current===0?'.45':'1';
+        next.textContent=current===screens.length-1?'Restart ↺':'Next →';
+      }
+      dots.forEach(d=>d.addEventListener('click',()=>show(Number(d.dataset.screen))));
+      prev.addEventListener('click',()=>show(current-1));
+      next.addEventListener('click',()=>current===screens.length-1?show(0):show(current+1));
+
+      let revealed=1;
+      const reveal=root.querySelector('#ppa-reveal');
+      reveal.addEventListener('click',()=>{
+        if(revealed<6){
+          revealed++;
+          const step=root.querySelector('.ppa-step[data-step="'+revealed+'"]');
+          step.classList.remove('muted');
+          if(revealed===6) reveal.textContent='All six steps revealed';
+        }
+      });
+
+      const fields=[...root.querySelectorAll('textarea[data-field]')];
+      const labels={
+        target:'Target and dates',
+        diagnosis:'Starting diagnosis',
+        rhythm:'Weekly rhythm',
+        review:'Review routine',
+        adjustment:'Adjustment rule',
+        checkpoint:'Weekly checkpoint',
+        commitment:'Commitment'
+      };
+      const preview=root.querySelector('#ppa-preview');
+      function updatePreview(){
+        const filled=fields.filter(f=>f.value.trim());
+        if(!filled.length){
+          preview.textContent='Start entering your plan above. Your completed entries will appear here.';
+          return;
+        }
+        preview.innerHTML=filled.map(f=>'<div style="margin-bottom:10px;"><strong>'+labels[f.dataset.field]+':</strong> '+f.value.replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</div>').join('');
+      }
+      fields.forEach(f=>f.addEventListener('input',updatePreview));
+      show(0);
+    })();
+  </script>
+</div>
