@@ -1,0 +1,290 @@
+<div id="cmdr-app" style="max-width:784px;margin:0 auto;font-family:Arial,Helvetica,sans-serif;color:#231f20;background:#fff;">
+  <div style="border:1px solid #ececec;border-radius:18px;overflow:hidden;background:#ffffff;">
+    <div style="background:#ff5900;color:#fff;padding:22px 24px 18px;">
+      <div style="font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;opacity:.88;">Subtopic 1 Resource</div>
+      <div style="font-size:30px;line-height:1.05;font-weight:800;margin-top:6px;">Care Management Decision Rules</div>
+      <div style="font-size:14px;line-height:1.45;margin-top:10px;max-width:650px;">Learn to read every explanation for the rule underneath it — then carry that rule into the next question.</div>
+    </div>
+
+    <div style="padding:14px 20px;border-bottom:1px solid #ececec;display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between;">
+      <div id="cmdr-progress" style="font-size:12px;font-weight:700;color:#666;">Screen 1 of 6</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        <button type="button" data-screen="0" class="cmdr-dot" aria-label="Go to screen 1">1</button>
+        <button type="button" data-screen="1" class="cmdr-dot" aria-label="Go to screen 2">2</button>
+        <button type="button" data-screen="2" class="cmdr-dot" aria-label="Go to screen 3">3</button>
+        <button type="button" data-screen="3" class="cmdr-dot" aria-label="Go to screen 4">4</button>
+        <button type="button" data-screen="4" class="cmdr-dot" aria-label="Go to screen 5">5</button>
+        <button type="button" data-screen="5" class="cmdr-dot" aria-label="Go to screen 6">6</button>
+      </div>
+    </div>
+
+    <div style="padding:24px;min-height:520px;">
+      <section class="cmdr-screen" data-index="0">
+        <div style="display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;">
+          <div>
+            <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">The explanation is the lesson</div>
+            <h2 style="font-size:30px;line-height:1.08;margin:8px 0 14px;">Don’t memorize the answer. Extract the rule.</h2>
+            <p style="font-size:17px;line-height:1.6;margin:0;color:#444;">When you miss a question, memorizing that one answer will not help you, because you will never see that exact item again. What helps is finding the rule the explanation is teaching, because a rule carries over to the next question.</p>
+            <p style="font-size:17px;line-height:1.6;margin:14px 0 0;color:#444;">In this resource, you will learn a simple way to pull the rule out of any explanation and collect the most useful Care Management rules to keep beside you while you practice.</p>
+          </div>
+          <div style="background:#fff7f2;border:1px solid #ffd7c2;border-radius:18px;padding:22px;">
+            <div style="font-size:14px;font-weight:800;color:#ff5900;">THE SHIFT</div>
+            <div style="font-size:22px;font-weight:800;margin-top:8px;">From “What was the answer?”</div>
+            <div style="font-size:32px;color:#ff5900;text-align:center;margin:12px 0;">↓</div>
+            <div style="font-size:22px;font-weight:800;">To “What rule made it right?”</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cmdr-screen" data-index="1" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">The extraction move</div>
+        <h2 style="font-size:28px;line-height:1.1;margin:8px 0 16px;">Pull the rule out in three steps</h2>
+
+        <div id="cmdr-steps" style="display:grid;gap:12px;">
+          <div class="cmdr-step" data-step="1" style="border:1px solid #eee;border-radius:16px;padding:18px;background:#fff;">
+            <div style="display:flex;gap:14px;align-items:flex-start;">
+              <div style="width:38px;height:38px;border-radius:50%;background:#ff5900;color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;flex:0 0 auto;">1</div>
+              <div><div style="font-weight:800;font-size:18px;">Read the whole explanation</div><div style="margin-top:6px;line-height:1.55;color:#555;">Read why the correct option is right and why every wrong option is wrong.</div></div>
+            </div>
+          </div>
+          <div class="cmdr-step" data-step="2" style="border:1px solid #eee;border-radius:16px;padding:18px;background:#fafafa;opacity:.35;">
+            <div style="display:flex;gap:14px;align-items:flex-start;">
+              <div style="width:38px;height:38px;border-radius:50%;background:#ff5900;color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;flex:0 0 auto;">2</div>
+              <div><div style="font-weight:800;font-size:18px;">Ask one question</div><div style="margin-top:6px;line-height:1.55;color:#555;">What general principle made the correct answer correct and the others wrong, setting aside the specific case details?</div></div>
+            </div>
+          </div>
+          <div class="cmdr-step" data-step="3" style="border:1px solid #eee;border-radius:16px;padding:18px;background:#fafafa;opacity:.35;">
+            <div style="display:flex;gap:14px;align-items:flex-start;">
+              <div style="width:38px;height:38px;border-radius:50%;background:#ff5900;color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;flex:0 0 auto;">3</div>
+              <div><div style="font-weight:800;font-size:18px;">Write the rule in your own words</div><div style="margin-top:6px;line-height:1.55;color:#555;">State a principle you could apply to a completely different item.</div></div>
+            </div>
+          </div>
+        </div>
+        <button id="cmdr-reveal-step" type="button" style="margin-top:16px;background:#ff5900;color:#fff;border:0;border-radius:999px;padding:12px 18px;font-size:15px;font-weight:800;cursor:pointer;">Reveal next step</button>
+      </section>
+
+      <section class="cmdr-screen" data-index="2" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Modeled extraction 1</div>
+        <h2 style="font-size:28px;line-height:1.1;margin:8px 0 16px;">Delegation</h2>
+
+        <div style="background:#fff7f2;border-left:5px solid #ff5900;border-radius:14px;padding:18px;line-height:1.55;">
+          <strong>Sample item:</strong> A registered nurse is organizing care for four clients on a medical-surgical unit and is deciding which task to assign to the unlicensed assistive personnel (UAP) on the team. Which task is appropriate to delegate to the UAP?
+          <div style="margin-top:10px;font-size:14px;">
+            A. Teaching a newly diagnosed client how to use an inhaler<br>
+            B. Assessing a client's surgical wound at the first dressing change<br>
+            <strong style="color:#ff5900;">C. Assisting a stable client with a bath and recording oral intake</strong><br>
+            D. Evaluating a client's response to a new pain medication
+          </div>
+        </div>
+
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin:16px 0;">
+          <button type="button" class="cmdr-example-tab active" data-example="d1">Step 1 · Explanation</button>
+          <button type="button" class="cmdr-example-tab" data-example="d2">Step 2 · Principle</button>
+          <button type="button" class="cmdr-example-tab" data-example="d3">Step 3 · Rule</button>
+        </div>
+
+        <div id="d1" class="cmdr-example-panel" style="border:1px solid #eee;border-radius:14px;padding:18px;line-height:1.6;color:#444;">
+          C is correct because bathing a stable client and recording intake are routine, standardized tasks that need no assessment, teaching, or clinical judgment. The other options require nursing judgment through teaching, assessment, or evaluation.
+        </div>
+        <div id="d2" class="cmdr-example-panel" hidden style="border:1px solid #eee;border-radius:14px;padding:18px;line-height:1.6;color:#444;">
+          What made C right was not the bath itself. It was that the correct task needed no nursing judgment, while every wrong option did.
+        </div>
+        <div id="d3" class="cmdr-example-panel" hidden style="border:1px solid #ffb58f;border-radius:14px;padding:18px;line-height:1.6;background:#fff7f2;">
+          <strong style="color:#ff5900;">Rule:</strong> A task can be delegated only when it needs no nursing judgment, assessment, teaching, or evaluation. An auxiliary worker’s practical ability does not define the scope; the legal role does. This is a common adjustment for nurses trained in Mexico, where the same staff member may do more under direct supervision.
+        </div>
+      </section>
+
+      <section class="cmdr-screen" data-index="3" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Modeled extraction 2</div>
+        <h2 style="font-size:28px;line-height:1.1;margin:8px 0 16px;">Confidentiality</h2>
+
+        <div style="background:#fff7f2;border-left:5px solid #ff5900;border-radius:14px;padding:18px;line-height:1.55;">
+          <strong>Sample item:</strong> A client's adult sibling calls the nursing unit and asks for an update on the client's condition. The client has not given permission to share information with this sibling. How should the nurse respond?
+          <div style="margin-top:10px;font-size:14px;">
+            A. Provide a brief summary since the caller is a family member<br>
+            <strong style="color:#ff5900;">B. Explain that information cannot be shared without the client's authorization</strong><br>
+            C. Transfer the call to the physician to give the update<br>
+            D. Confirm only whether the client has been admitted
+          </div>
+        </div>
+
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin:16px 0;">
+          <button type="button" class="cmdr-conf-tab active" data-conf="c1">Step 1 · Explanation</button>
+          <button type="button" class="cmdr-conf-tab" data-conf="c2">Step 2 · Principle</button>
+          <button type="button" class="cmdr-conf-tab" data-conf="c3">Step 3 · Rule</button>
+        </div>
+
+        <div id="c1" class="cmdr-conf-panel" style="border:1px solid #eee;border-radius:14px;padding:18px;line-height:1.6;color:#444;">
+          B is correct because HIPAA requires the client's authorization before protected health information is disclosed, and a family relationship by itself does not grant access. Transferring the call or confirming admission does not solve the authorization problem.
+        </div>
+        <div id="c2" class="cmdr-conf-panel" hidden style="border:1px solid #eee;border-radius:14px;padding:18px;line-height:1.6;color:#444;">
+          The deciding detail was not the sibling or the phone call. It was that the client, not the family bond, controls who receives their information.
+        </div>
+        <div id="c3" class="cmdr-conf-panel" hidden style="border:1px solid #ffb58f;border-radius:14px;padding:18px;line-height:1.6;background:#fff7f2;">
+          <strong style="color:#ff5900;">Rule:</strong> The client controls disclosure of their health information, and the default is non-disclosure unless the client has authorized it. Family-centered updates are common and often expected in Mexican practice, which is why this rule has to be stated explicitly.
+        </div>
+      </section>
+
+      <section class="cmdr-screen" data-index="4" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Decision-rule board</div>
+        <h2 style="font-size:28px;line-height:1.1;margin:8px 0 8px;">Explore the five high-yield rule areas</h2>
+        <p style="margin:0 0 18px;color:#666;line-height:1.5;">Select a hotspot to open its decision rules.</p>
+
+        <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;">
+          <button type="button" class="cmdr-hotspot" data-rule="r1"><span>1</span><strong>Delegation & supervision</strong></button>
+          <button type="button" class="cmdr-hotspot" data-rule="r2"><span>2</span><strong>Legal practice & scope</strong></button>
+          <button type="button" class="cmdr-hotspot" data-rule="r3"><span>3</span><strong>Consent & confidentiality</strong></button>
+          <button type="button" class="cmdr-hotspot" data-rule="r4"><span>4</span><strong>Case management & continuity</strong></button>
+          <button type="button" class="cmdr-hotspot" data-rule="r5" style="grid-column:1 / -1;"><span>5</span><strong>Patient advocacy</strong></button>
+        </div>
+
+        <div id="cmdr-rule-panel" style="margin-top:16px;border:1px solid #ffd1b8;background:#fff7f2;border-radius:16px;padding:20px;min-height:170px;">
+          <div style="font-size:14px;font-weight:800;color:#ff5900;">SELECT A RULE AREA</div>
+          <div style="margin-top:8px;color:#555;line-height:1.55;">The rule board is designed as a quick-reference tool. Open any area above to review the underlying decision logic.</div>
+        </div>
+      </section>
+
+      <section class="cmdr-screen" data-index="5" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Synthesis</div>
+        <h2 style="font-size:30px;line-height:1.08;margin:8px 0 16px;">Build your own rule sheet as you practice</h2>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+          <div style="border:1px solid #eee;border-radius:16px;padding:18px;">
+            <div style="font-size:14px;font-weight:800;color:#ff5900;">MAKE IT A HABIT</div>
+            <div style="margin-top:8px;line-height:1.6;color:#444;">Every explanation you read can add a new rule in your own words. The goal is not to memorize isolated answers; it is to recognize patterns beneath new situations.</div>
+          </div>
+          <div style="border:1px solid #eee;border-radius:16px;padding:18px;">
+            <div style="font-size:14px;font-weight:800;color:#ff5900;">WHAT BECOMES AUTOMATIC</div>
+            <div style="margin-top:8px;line-height:1.6;color:#444;">Over time, these rules become quick judgments about authority, accountability, scope, client rights, continuity, and advocacy.</div>
+          </div>
+        </div>
+        <div style="margin-top:18px;background:#ff5900;color:#fff;border-radius:18px;padding:22px;text-align:center;">
+          <div style="font-size:14px;font-weight:700;opacity:.9;">YOUR PRACTICE PROMPT</div>
+          <div style="font-size:24px;line-height:1.25;font-weight:800;margin-top:6px;">“What rule is this explanation teaching me?”</div>
+        </div>
+      </section>
+    </div>
+
+    <div style="padding:16px 20px;border-top:1px solid #ececec;display:flex;justify-content:space-between;gap:10px;">
+      <button id="cmdr-prev" type="button" style="background:#fff;color:#231f20;border:1px solid #d9d9d9;border-radius:999px;padding:11px 18px;font-weight:800;cursor:pointer;">← Previous</button>
+      <button id="cmdr-next" type="button" style="background:#ff5900;color:#fff;border:0;border-radius:999px;padding:11px 18px;font-weight:800;cursor:pointer;">Next →</button>
+    </div>
+  </div>
+
+  <style>
+    #cmdr-app * { box-sizing: border-box; }
+    #cmdr-app button { font: inherit; }
+    #cmdr-app .cmdr-dot {
+      width:32px;height:32px;border-radius:50%;border:1px solid #ddd;background:#fff;color:#555;
+      font-weight:800;cursor:pointer;
+    }
+    #cmdr-app .cmdr-dot.active { background:#ff5900;color:#fff;border-color:#ff5900; }
+    #cmdr-app .cmdr-example-tab,
+    #cmdr-app .cmdr-conf-tab {
+      border:1px solid #ddd;background:#fff;color:#444;border-radius:999px;padding:10px 14px;
+      font-weight:700;cursor:pointer;
+    }
+    #cmdr-app .cmdr-example-tab.active,
+    #cmdr-app .cmdr-conf-tab.active { background:#ff5900;color:#fff;border-color:#ff5900; }
+    #cmdr-app .cmdr-hotspot {
+      border:1px solid #eee;background:#fff;border-radius:16px;padding:16px;text-align:left;cursor:pointer;
+      display:flex;gap:12px;align-items:center;color:#231f20;
+    }
+    #cmdr-app .cmdr-hotspot:hover,
+    #cmdr-app .cmdr-hotspot:focus { border-color:#ff5900;outline:none; }
+    #cmdr-app .cmdr-hotspot span {
+      width:34px;height:34px;border-radius:50%;background:#ff5900;color:#fff;display:flex;align-items:center;justify-content:center;
+      font-weight:800;flex:0 0 auto;
+    }
+    @media (max-width: 640px) {
+      #cmdr-app .cmdr-screen > div[style*="grid-template-columns:1.1fr .9fr"] { grid-template-columns:1fr !important; }
+      #cmdr-app .cmdr-screen > div[style*="grid-template-columns:1fr 1fr"] { grid-template-columns:1fr !important; }
+      #cmdr-app .cmdr-screen > div[style*="repeat(2"] { grid-template-columns:1fr !important; }
+      #cmdr-app .cmdr-hotspot[style*="grid-column"] { grid-column:auto !important; }
+    }
+  </style>
+
+  <script>
+    (function(){
+      const root = document.getElementById('cmdr-app');
+      const screens = Array.from(root.querySelectorAll('.cmdr-screen'));
+      const dots = Array.from(root.querySelectorAll('.cmdr-dot'));
+      const progress = root.querySelector('#cmdr-progress');
+      const prev = root.querySelector('#cmdr-prev');
+      const next = root.querySelector('#cmdr-next');
+      let current = 0;
+
+      function showScreen(i){
+        current = Math.max(0, Math.min(screens.length - 1, i));
+        screens.forEach((s, idx) => s.hidden = idx !== current);
+        dots.forEach((d, idx) => d.classList.toggle('active', idx === current));
+        progress.textContent = 'Screen ' + (current + 1) + ' of ' + screens.length;
+        prev.disabled = current === 0;
+        prev.style.opacity = current === 0 ? '.45' : '1';
+        next.textContent = current === screens.length - 1 ? 'Restart ↺' : 'Next →';
+      }
+
+      dots.forEach(d => d.addEventListener('click', () => showScreen(Number(d.dataset.screen))));
+      prev.addEventListener('click', () => showScreen(current - 1));
+      next.addEventListener('click', () => {
+        if(current === screens.length - 1) showScreen(0);
+        else showScreen(current + 1);
+      });
+
+      let revealed = 1;
+      const revealBtn = root.querySelector('#cmdr-reveal-step');
+      revealBtn.addEventListener('click', () => {
+        if (revealed < 3) {
+          revealed += 1;
+          const step = root.querySelector('.cmdr-step[data-step="' + revealed + '"]');
+          step.style.opacity = '1';
+          step.style.background = '#fff';
+          if (revealed === 3) revealBtn.textContent = 'All steps revealed';
+        }
+      });
+
+      function wireTabs(tabSelector, panelSelector, key){
+        const tabs = Array.from(root.querySelectorAll(tabSelector));
+        const panels = Array.from(root.querySelectorAll(panelSelector));
+        tabs.forEach(tab => tab.addEventListener('click', () => {
+          tabs.forEach(t => t.classList.remove('active'));
+          panels.forEach(p => p.hidden = true);
+          tab.classList.add('active');
+          root.querySelector('#' + tab.dataset[key]).hidden = false;
+        }));
+      }
+      wireTabs('.cmdr-example-tab', '.cmdr-example-panel', 'example');
+      wireTabs('.cmdr-conf-tab', '.cmdr-conf-panel', 'conf');
+
+      const rules = {
+        r1: {
+          title:'Delegation and supervision',
+          body:'A task moves to another worker only when it requires no nursing judgment, assessment, teaching, or evaluation. Accountability stays with the delegating nurse, who must supervise and follow up. The task can be handed off, but responsibility for the outcome cannot. Stable clients and routine standardized tasks point toward delegation, while unstable or changing situations stay with the RN.'
+        },
+        r2: {
+          title:'Legal practice and scope',
+          body:'The nurse has an independent duty to question, clarify, or withhold an unsafe or unclear order before acting, and following an order does not transfer the nurse’s liability. Acting outside the legal scope of the license is unsafe regardless of physician direction, since U.S. law treats the nurse as an independent licensee rather than a follower of orders.'
+        },
+        r3: {
+          title:'Informed consent and confidentiality',
+          body:'Valid consent requires that the client understand the procedure. The provider performing it explains it, while the nurse confirms understanding, witnesses the signature, and clarifies nursing care rather than operative details. The client controls disclosure of protected health information, so a family relationship alone does not authorize sharing, and the default is non-disclosure without authorization.'
+        },
+        r4: {
+          title:'Case management and continuity',
+          body:'Continuity is an active duty. The care team coordinates referrals and confirms services are in place before discharge, rather than leaving the client to arrange them, which is a shift from settings where families often organize care informally.'
+        },
+        r5: {
+          title:'Patient advocacy',
+          body:'The nurse protects the client’s rights and wishes even when that pauses or challenges the plan, such as stopping a procedure when consent is not truly informed. Advocacy means acting on the client’s expressed needs, not reassuring the client into going along with the plan.'
+        }
+      };
+
+      const panel = root.querySelector('#cmdr-rule-panel');
+      root.querySelectorAll('.cmdr-hotspot').forEach(btn => btn.addEventListener('click', () => {
+        const r = rules[btn.dataset.rule];
+        panel.innerHTML = '<div style="font-size:14px;font-weight:800;color:#ff5900;">' + r.title.toUpperCase() + '</div><div style="margin-top:8px;color:#444;line-height:1.6;">' + r.body + '</div>';
+      }));
+
+      showScreen(0);
+    })();
+  </script>
+</div>
