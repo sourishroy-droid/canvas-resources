@@ -1,0 +1,321 @@
+<div id="health-life-app" style="max-width:784px;margin:0 auto;font-family:Arial,Helvetica,sans-serif;color:#231f20;background:#fff;">
+  <div style="border:1px solid #ececec;border-radius:18px;overflow:hidden;background:#fff;">
+    <div style="background:#ff5900;color:#fff;padding:22px 24px 18px;">
+      <div style="font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;opacity:.9;">Subtopic 3 Resource</div>
+      <div style="font-size:29px;line-height:1.06;font-weight:800;margin-top:6px;">Health Promotion Across the Life Span</div>
+      <div style="font-size:14px;line-height:1.45;margin-top:10px;max-width:660px;">Place the scenario by life stage first — then choose the right health-promotion priority.</div>
+    </div>
+
+    <div style="padding:14px 20px;border-bottom:1px solid #ececec;display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:space-between;">
+      <div id="hla-progress" style="font-size:12px;font-weight:700;color:#666;">Screen 1 of 5</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        <button type="button" data-screen="0" class="hla-dot" aria-label="Go to screen 1">1</button>
+        <button type="button" data-screen="1" class="hla-dot" aria-label="Go to screen 2">2</button>
+        <button type="button" data-screen="2" class="hla-dot" aria-label="Go to screen 3">3</button>
+        <button type="button" data-screen="3" class="hla-dot" aria-label="Go to screen 4">4</button>
+        <button type="button" data-screen="4" class="hla-dot" aria-label="Go to screen 5">5</button>
+      </div>
+    </div>
+
+    <div style="padding:24px;min-height:545px;">
+      <section class="hla-screen" data-index="0">
+        <div style="display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:center;">
+          <div>
+            <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Place first, then answer</div>
+            <h2 style="font-size:30px;line-height:1.08;margin:8px 0 14px;">In Health Promotion, age and life stage change the answer.</h2>
+            <p style="font-size:17px;line-height:1.6;margin:0;color:#444;">A question is often answerable once you know how old the client is and what stage of life they are in. The fastest route is to place the scenario before you reach for an action.</p>
+            <p style="font-size:17px;line-height:1.6;margin:14px 0 0;color:#444;">This resource helps you build that placing habit, then maps the high-yield priorities from prenatal care through older adulthood.</p>
+          </div>
+          <div style="background:#fff7f2;border:1px solid #ffd7c2;border-radius:18px;padding:22px;">
+            <div style="font-size:14px;font-weight:800;color:#ff5900;">THE MOVE</div>
+            <div style="font-size:21px;font-weight:800;margin-top:8px;">1. Place the stage</div>
+            <div style="font-size:28px;color:#ff5900;text-align:center;margin:8px 0;">↓</div>
+            <div style="font-size:21px;font-weight:800;">2. Recall the priorities</div>
+            <div style="font-size:28px;color:#ff5900;text-align:center;margin:8px 0;">↓</div>
+            <div style="font-size:21px;font-weight:800;">3. Match the action</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hla-screen" data-index="1" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">The placing move</div>
+        <h2 style="font-size:28px;line-height:1.1;margin:8px 0 16px;">Place the scenario in three steps</h2>
+
+        <div style="display:grid;gap:12px;">
+          <div class="hla-step" data-step="1" style="border:1px solid #eee;border-radius:16px;padding:18px;background:#fff;">
+            <div style="display:flex;gap:14px;align-items:flex-start;">
+              <div style="width:38px;height:38px;border-radius:50%;background:#ff5900;color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;flex:0 0 auto;">1</div>
+              <div><div style="font-weight:800;font-size:18px;">Identify the life stage</div><div style="margin-top:6px;line-height:1.55;color:#555;">Before anything else, place the client in the correct stage of life.</div></div>
+            </div>
+          </div>
+          <div class="hla-step" data-step="2" style="border:1px solid #eee;border-radius:16px;padding:18px;background:#fafafa;opacity:.35;">
+            <div style="display:flex;gap:14px;align-items:flex-start;">
+              <div style="width:38px;height:38px;border-radius:50%;background:#ff5900;color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;flex:0 0 auto;">2</div>
+              <div><div style="font-weight:800;font-size:18px;">Recall what belongs to that stage</div><div style="margin-top:6px;line-height:1.55;color:#555;">Think immunizations, screenings, expected milestones, and anticipatory guidance.</div></div>
+            </div>
+          </div>
+          <div class="hla-step" data-step="3" style="border:1px solid #eee;border-radius:16px;padding:18px;background:#fafafa;opacity:.35;">
+            <div style="display:flex;gap:14px;align-items:flex-start;">
+              <div style="width:38px;height:38px;border-radius:50%;background:#ff5900;color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;flex:0 0 auto;">3</div>
+              <div><div style="font-weight:800;font-size:18px;">Match the nursing action</div><div style="margin-top:6px;line-height:1.55;color:#555;">Choose the action that fits the stage and its current promotion priorities.</div></div>
+            </div>
+          </div>
+        </div>
+        <button id="hla-reveal-step" type="button" style="margin-top:16px;background:#ff5900;color:#fff;border:0;border-radius:999px;padding:12px 18px;font-size:15px;font-weight:800;cursor:pointer;">Reveal next step</button>
+      </section>
+
+      <section class="hla-screen" data-index="2" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Two modeled placings</div>
+        <h2 style="font-size:28px;line-height:1.1;margin:8px 0 16px;">See the placing move in action</h2>
+
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px;">
+          <button type="button" class="hla-model-tab active" data-model="infant">Infant example</button>
+          <button type="button" class="hla-model-tab" data-model="older">Older adult example</button>
+        </div>
+
+        <div id="infant" class="hla-model-panel">
+          <div style="background:#fff7f2;border-left:5px solid #ff5900;border-radius:14px;padding:18px;line-height:1.55;">
+            <strong>Scenario:</strong> A parent brings their six-month-old infant to a well-child visit and asks the nurse what to expect at this stage.
+          </div>
+
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin:16px 0;">
+            <button type="button" class="hla-infant-tab active" data-target="i1">Step 1 · Place</button>
+            <button type="button" class="hla-infant-tab" data-target="i2">Step 2 · Recall</button>
+            <button type="button" class="hla-infant-tab" data-target="i3">Step 3 · Match</button>
+          </div>
+
+          <div id="i1" class="hla-infant-panel" style="border:1px solid #eee;border-radius:14px;padding:18px;line-height:1.6;color:#444;">
+            <strong style="color:#ff5900;">Place the stage:</strong> This is infancy.
+          </div>
+          <div id="i2" class="hla-infant-panel" hidden style="border:1px solid #eee;border-radius:14px;padding:18px;line-height:1.6;color:#444;">
+            <strong style="color:#ff5900;">Recall the focus:</strong> CDC infant immunizations, safe sleep on the back in an empty crib, feeding guidance, and milestones such as sitting with support and babbling.
+          </div>
+          <div id="i3" class="hla-infant-panel" hidden style="border:1px solid #ffb58f;border-radius:14px;padding:18px;line-height:1.6;background:#fff7f2;">
+            <strong style="color:#ff5900;">Match the action:</strong> Give the immunizations that are due and reinforce stage-appropriate anticipatory guidance on safe sleep, feeding, and injury prevention. The U.S. CDC schedule is the expected standard.
+          </div>
+        </div>
+
+        <div id="older" class="hla-model-panel" hidden>
+          <div style="background:#fff7f2;border-left:5px solid #ff5900;border-radius:14px;padding:18px;line-height:1.55;">
+            <strong>Scenario:</strong> An older adult client attends a routine wellness visit.
+          </div>
+
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin:16px 0;">
+            <button type="button" class="hla-older-tab active" data-target="o1">Step 1 · Place</button>
+            <button type="button" class="hla-older-tab" data-target="o2">Step 2 · Recall</button>
+            <button type="button" class="hla-older-tab" data-target="o3">Step 3 · Match</button>
+          </div>
+
+          <div id="o1" class="hla-older-panel" style="border:1px solid #eee;border-radius:14px;padding:18px;line-height:1.6;color:#444;">
+            <strong style="color:#ff5900;">Place the stage:</strong> This is older adulthood.
+          </div>
+          <div id="o2" class="hla-older-panel" hidden style="border:1px solid #eee;border-radius:14px;padding:18px;line-height:1.6;color:#444;">
+            <strong style="color:#ff5900;">Recall the focus:</strong> Zoster and pneumococcal immunizations, fall risk assessment, age-appropriate screening, and a review for polypharmacy.
+          </div>
+          <div id="o3" class="hla-older-panel" hidden style="border:1px solid #ffb58f;border-radius:14px;padding:18px;line-height:1.6;background:#fff7f2;">
+            <strong style="color:#ff5900;">Match the action:</strong> Provide due immunizations, assess fall risk, complete appropriate screening, and review the medication list for polypharmacy.
+          </div>
+        </div>
+      </section>
+
+      <section class="hla-screen" data-index="3" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Life-stage map</div>
+        <h2 style="font-size:28px;line-height:1.1;margin:8px 0 8px;">Explore the seven stages across the life span</h2>
+        <p style="margin:0 0 18px;color:#666;line-height:1.5;">Select a hotspot to reveal the focus, priorities, and expected nursing action.</p>
+
+        <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;">
+          <button type="button" class="hla-hotspot" data-rule="r1"><span>1</span><strong>Prenatal & perinatal</strong></button>
+          <button type="button" class="hla-hotspot" data-rule="r2"><span>2</span><strong>Newborn & infant</strong></button>
+          <button type="button" class="hla-hotspot" data-rule="r3"><span>3</span><strong>Toddler & preschool</strong></button>
+          <button type="button" class="hla-hotspot" data-rule="r4"><span>4</span><strong>School age</strong></button>
+          <button type="button" class="hla-hotspot" data-rule="r5"><span>5</span><strong>Adolescent</strong></button>
+          <button type="button" class="hla-hotspot" data-rule="r6"><span>6</span><strong>Adult</strong></button>
+          <button type="button" class="hla-hotspot" data-rule="r7" style="grid-column:3 / 5;"><span>7</span><strong>Older adult</strong></button>
+        </div>
+
+        <div id="hla-rule-panel" style="margin-top:16px;border:1px solid #ffd1b8;background:#fff7f2;border-radius:16px;padding:20px;min-height:220px;">
+          <div style="font-size:14px;font-weight:800;color:#ff5900;">SELECT A LIFE STAGE</div>
+          <div style="margin-top:8px;color:#555;line-height:1.55;">Open any hotspot above to review the stage’s health-promotion priorities and expected action.</div>
+        </div>
+      </section>
+
+      <section class="hla-screen" data-index="4" hidden>
+        <div style="font-size:13px;font-weight:800;color:#ff5900;text-transform:uppercase;letter-spacing:.08em;">Synthesis</div>
+        <h2 style="font-size:30px;line-height:1.08;margin:8px 0 16px;">Place the scenario first. The priorities usually follow.</h2>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+          <div style="border:1px solid #eee;border-radius:16px;padding:18px;">
+            <div style="font-size:14px;font-weight:800;color:#ff5900;">YOUR MENTAL MAP</div>
+            <div style="margin-top:8px;line-height:1.6;color:#444;">Health Promotion changes with age: the immunization, screening, teaching, and milestone that matter for an infant are not the same ones that matter for an adolescent or older adult.</div>
+          </div>
+          <div style="border:1px solid #eee;border-radius:16px;padding:18px;">
+            <div style="font-size:14px;font-weight:800;color:#ff5900;">USE U.S. STANDARDS</div>
+            <div style="margin-top:8px;line-height:1.6;color:#444;">Hold the U.S. immunization schedule, screening recommendations, and expected guidance as your exam reference.</div>
+          </div>
+        </div>
+        <div style="margin-top:18px;background:#ff5900;color:#fff;border-radius:18px;padding:22px;text-align:center;">
+          <div style="font-size:14px;font-weight:700;opacity:.9;">YOUR PRACTICE PROMPT</div>
+          <div style="font-size:24px;line-height:1.25;font-weight:800;margin-top:6px;">“What stage is this client in, and what belongs to that stage?”</div>
+        </div>
+      </section>
+    </div>
+
+    <div style="padding:16px 20px;border-top:1px solid #ececec;display:flex;justify-content:space-between;gap:10px;">
+      <button id="hla-prev" type="button" style="background:#fff;color:#231f20;border:1px solid #d9d9d9;border-radius:999px;padding:11px 18px;font-weight:800;cursor:pointer;">← Previous</button>
+      <button id="hla-next" type="button" style="background:#ff5900;color:#fff;border:0;border-radius:999px;padding:11px 18px;font-weight:800;cursor:pointer;">Next →</button>
+    </div>
+  </div>
+
+  <style>
+    #health-life-app * { box-sizing:border-box; }
+    #health-life-app button { font:inherit; }
+    #health-life-app .hla-dot {
+      width:32px;height:32px;border-radius:50%;border:1px solid #ddd;background:#fff;color:#555;
+      font-weight:800;cursor:pointer;
+    }
+    #health-life-app .hla-dot.active { background:#ff5900;color:#fff;border-color:#ff5900; }
+    #health-life-app .hla-model-tab,
+    #health-life-app .hla-infant-tab,
+    #health-life-app .hla-older-tab {
+      border:1px solid #ddd;background:#fff;color:#444;border-radius:999px;padding:10px 14px;
+      font-weight:700;cursor:pointer;
+    }
+    #health-life-app .hla-model-tab.active,
+    #health-life-app .hla-infant-tab.active,
+    #health-life-app .hla-older-tab.active {
+      background:#ff5900;color:#fff;border-color:#ff5900;
+    }
+    #health-life-app .hla-hotspot {
+      border:1px solid #eee;background:#fff;border-radius:16px;padding:14px;text-align:left;cursor:pointer;
+      display:flex;gap:10px;align-items:center;color:#231f20;min-height:72px;
+    }
+    #health-life-app .hla-hotspot:hover,
+    #health-life-app .hla-hotspot:focus { border-color:#ff5900;outline:none; }
+    #health-life-app .hla-hotspot span {
+      width:34px;height:34px;border-radius:50%;background:#ff5900;color:#fff;display:flex;align-items:center;justify-content:center;
+      font-weight:800;flex:0 0 auto;
+    }
+    @media (max-width:640px) {
+      #health-life-app .hla-screen > div[style*="grid-template-columns:1.05fr .95fr"] { grid-template-columns:1fr !important; }
+      #health-life-app .hla-screen > div[style*="grid-template-columns:1fr 1fr"] { grid-template-columns:1fr !important; }
+      #health-life-app .hla-screen > div[style*="repeat(4"] { grid-template-columns:1fr !important; }
+      #health-life-app .hla-hotspot[style*="grid-column"] { grid-column:auto !important; }
+    }
+  </style>
+
+  <script>
+    (function(){
+      const root = document.getElementById('health-life-app');
+      const screens = Array.from(root.querySelectorAll('.hla-screen'));
+      const dots = Array.from(root.querySelectorAll('.hla-dot'));
+      const progress = root.querySelector('#hla-progress');
+      const prev = root.querySelector('#hla-prev');
+      const next = root.querySelector('#hla-next');
+      let current = 0;
+
+      function showScreen(i){
+        current = Math.max(0, Math.min(screens.length-1, i));
+        screens.forEach((s, idx) => s.hidden = idx !== current);
+        dots.forEach((d, idx) => d.classList.toggle('active', idx === current));
+        progress.textContent = 'Screen ' + (current+1) + ' of ' + screens.length;
+        prev.disabled = current === 0;
+        prev.style.opacity = current === 0 ? '.45' : '1';
+        next.textContent = current === screens.length-1 ? 'Restart ↺' : 'Next →';
+      }
+
+      dots.forEach(d => d.addEventListener('click', () => showScreen(Number(d.dataset.screen))));
+      prev.addEventListener('click', () => showScreen(current-1));
+      next.addEventListener('click', () => current === screens.length-1 ? showScreen(0) : showScreen(current+1));
+
+      let revealed = 1;
+      const revealBtn = root.querySelector('#hla-reveal-step');
+      revealBtn.addEventListener('click', () => {
+        if(revealed < 3){
+          revealed++;
+          const step = root.querySelector('.hla-step[data-step="' + revealed + '"]');
+          step.style.opacity = '1';
+          step.style.background = '#fff';
+          if(revealed === 3) revealBtn.textContent = 'All steps revealed';
+        }
+      });
+
+      const modelTabs = Array.from(root.querySelectorAll('.hla-model-tab'));
+      const modelPanels = Array.from(root.querySelectorAll('.hla-model-panel'));
+      modelTabs.forEach(tab => tab.addEventListener('click', () => {
+        modelTabs.forEach(t => t.classList.remove('active'));
+        modelPanels.forEach(p => p.hidden = true);
+        tab.classList.add('active');
+        root.querySelector('#' + tab.dataset.model).hidden = false;
+      }));
+
+      function wireTabs(tabSel, panelSel){
+        const tabs = Array.from(root.querySelectorAll(tabSel));
+        const panels = Array.from(root.querySelectorAll(panelSel));
+        tabs.forEach(tab => tab.addEventListener('click', () => {
+          tabs.forEach(t => t.classList.remove('active'));
+          panels.forEach(p => p.hidden = true);
+          tab.classList.add('active');
+          root.querySelector('#' + tab.dataset.target).hidden = false;
+        }));
+      }
+      wireTabs('.hla-infant-tab', '.hla-infant-panel');
+      wireTabs('.hla-older-tab', '.hla-older-panel');
+
+      const rules = {
+        r1:{
+          title:'Prenatal and perinatal',
+          focus:'A healthy pregnancy and preparation for birth.',
+          priorities:'Prenatal care, folic acid, nutrition, avoiding teratogens, blood pressure and gestational diabetes screening, and Tdap in pregnancy.',
+          action:'Teach danger signs and prepare the family for labor and the newborn. The U.S. prenatal schedule and standards are the expected reference.'
+        },
+        r2:{
+          title:'Newborn and infant',
+          focus:'Trust and rapid growth.',
+          priorities:'CDC infant immunization schedule, safe sleep on the back, feeding, newborn metabolic and hearing screening, and milestones such as the social smile and head control.',
+          action:'Give due immunizations and provide safety guidance on choking and car seats.'
+        },
+        r3:{
+          title:'Toddler and preschool',
+          focus:'Autonomy and initiative.',
+          priorities:'Immunization boosters, injury prevention for poisoning and drowning, dental care, and milestones such as walking, language, and toilet training.',
+          action:'Provide anticipatory guidance for tantrums and home safety.'
+        },
+        r4:{
+          title:'School age',
+          focus:'Industry and concrete thinking.',
+          priorities:'Immunizations, vision, hearing, and scoliosis screening, healthy weight, and helmet and sport safety.',
+          action:'Support healthy habits and school readiness.'
+        },
+        r5:{
+          title:'Adolescent',
+          focus:'Identity and abstract thinking.',
+          priorities:'HPV, meningococcal, and Tdap immunizations, plus screening for mood, substance use, and sexual health.',
+          action:'Provide risk-reduction guidance and respect confidentiality. U.S. adolescent vaccines and confidentiality norms are the expected standard.'
+        },
+        r6:{
+          title:'Adult',
+          focus:'Generativity and chronic disease prevention.',
+          priorities:'Blood pressure, cholesterol, and cancer screening such as cervical, breast, and colorectal, plus seasonal and booster immunizations.',
+          action:'Use behavior modification and lifestyle counseling.'
+        },
+        r7:{
+          title:'Older adult',
+          focus:'Integrity and maintaining function.',
+          priorities:'Zoster, pneumococcal, and seasonal immunizations, fall prevention, cognitive and functional screening, bone density, and polypharmacy review.',
+          action:'Provide safety guidance and support advance care planning.'
+        }
+      };
+
+      const panel = root.querySelector('#hla-rule-panel');
+      root.querySelectorAll('.hla-hotspot').forEach(btn => btn.addEventListener('click', () => {
+        const r = rules[btn.dataset.rule];
+        panel.innerHTML =
+          '<div style="font-size:14px;font-weight:800;color:#ff5900;">' + r.title.toUpperCase() + '</div>' +
+          '<div style="margin-top:10px;line-height:1.58;color:#444;"><strong>Focus:</strong> ' + r.focus + '</div>' +
+          '<div style="margin-top:10px;line-height:1.58;color:#444;"><strong>Priorities:</strong> ' + r.priorities + '</div>' +
+          '<div style="margin-top:10px;line-height:1.58;color:#444;"><strong>Action:</strong> ' + r.action + '</div>';
+      }));
+
+      showScreen(0);
+    })();
+  </script>
+</div>
